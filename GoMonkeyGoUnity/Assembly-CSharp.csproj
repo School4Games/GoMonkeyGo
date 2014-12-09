@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\BananaPickup.cs" />
      <Compile Include="Assets\Scripts\Bananabar.cs" />
+     <Compile Include="Assets\Scripts\BananajumpScore.cs" />
      <Compile Include="Assets\Scripts\Bananastartup.cs" />
      <Compile Include="Assets\Scripts\Bananenstaude.cs" />
      <Compile Include="Assets\Scripts\CameraFollow.cs" />

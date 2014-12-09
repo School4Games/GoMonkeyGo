@@ -8,12 +8,13 @@ public class Score : MonoBehaviour
 
 	private PlayerControl playerControl;	// Reference to the player control script.
 	private int previousScore = 0;			// The score in the previous frame.
-
+	private Camerascroll platformSpeed;
 
 	void Awake ()
 	{
 		// Setting up the reference.
 		playerControl = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerControl>();
+		platformSpeed = GameObject.Find("Scrolling").GetComponent<Camerascroll>();
 	}
 
 
@@ -25,6 +26,10 @@ public class Score : MonoBehaviour
 
 		// Set the previous score to this frame's score.
 		previousScore = score;
+
+
+
+
 	}
 
 }

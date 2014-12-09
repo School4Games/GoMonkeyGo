@@ -27,7 +27,6 @@ GameObject:
   - 4: {fileID: 400002}
   - 212: {fileID: 21200000}
   - 114: {fileID: 11400004}
-  - 61: {fileID: 6100004}
   - 114: {fileID: 11400002}
   - 61: {fileID: 6100000}
   m_Layer: 10
@@ -44,8 +43,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -27.7486515, y: -2.75508094, z: 1.06786132}
-  m_LocalScale: {x: 2.75506616, y: .296248704, z: 1}
+  m_LocalPosition: {x: -.0876405239, y: 3.13532829, z: 2.62148166}
+  m_LocalScale: {x: -2.05580211, y: .221057981, z: 2.45489049}
   m_Children:
   - {fileID: 400002}
   m_Father: {fileID: 0}
@@ -57,8 +56,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100002}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .00107168965, y: -3.75895953, z: .00927734375}
-  m_LocalScale: {x: .3629677, y: 3.37554216, z: 1}
+  m_LocalPosition: {x: -.0504774116, y: -2.81128359, z: .00927737355}
+  m_LocalScale: {x: .23300299, y: 2.16689301, z: 1}
   m_Children: []
   m_Father: {fileID: 400000}
   m_RootOrder: 0
@@ -71,7 +70,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Size: {x: 2.41000009, y: 2.45000005}
+  m_Size: {x: 3.76999998, y: 4.78000021}
   m_Center: {x: 0, y: 0}
 --- !u!61 &6100002
 BoxCollider2D:
@@ -82,19 +81,8 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Size: {x: .819999993, y: 1}
-  m_Center: {x: 0, y: 0}
---- !u!61 &6100004
-BoxCollider2D:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100002}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Size: {x: 2.25, y: 2.29999995}
-  m_Center: {x: 0, y: 0}
+  m_Size: {x: .939999998, y: .980000019}
+  m_Center: {x: -.0599999987, y: 2.36999989}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -151,7 +139,7 @@ SpriteRenderer:
   m_ScaleInLightmap: 1
   m_SortingLayerID: 2511236001
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 96e3390194fbcf943aef6eb325909709, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ae31c385866952343bab14026a53145b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &100100000
 Prefab:

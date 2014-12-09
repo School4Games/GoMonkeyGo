@@ -7,16 +7,18 @@ public class BananaPickup : MonoBehaviour
 	
 	public GameObject hundredPointsUI;	// A prefab of 100 that appears when the enemy dies.
 	private Animator anim;				// Reference to the animator component.
-	private bool landed = false;		// Whether or not the crate has landed yet.
+
 	private Score score;				// Reference to the Score script.
-	public Bananabar points;
+	private Bananabar points;
+	private BananajumpScore jumpscore;
 
 	void Awake()
 	{
 		// Setting up the reference.
 		anim = transform.root.GetComponent<Animator>();
 		score = GameObject.Find("Score").GetComponent<Score>();
-	
+		points = GameObject.Find ("bananabar").GetComponent<Bananabar> ();
+		jumpscore = GameObject.Find("jumpScore").GetComponent<BananajumpScore>();
 	}
 	
 	
@@ -29,6 +31,7 @@ public class BananaPickup : MonoBehaviour
 			// Increase the number of bombs the player has.
 			score.score += 100;
 
+			jumpscore.jumpscore += 1;
 
 			points.ModifyPoints(10);
 

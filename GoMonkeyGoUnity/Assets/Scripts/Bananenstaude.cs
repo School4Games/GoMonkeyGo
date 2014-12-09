@@ -7,9 +7,10 @@ public class Bananenstaude : MonoBehaviour
 	
 	public GameObject hundredPointsUI;	// A prefab of 100 that appears when the enemy dies.
 	private Animator anim;				// Reference to the animator component.
-	private bool landed = false;		// Whether or not the crate has landed yet.
+
 	private Score score;				// Reference to the Score script.
-	public Bananabar points;
+	private Bananabar points;
+	private BananajumpScore jumpscore;
 
 
 	void Awake()
@@ -17,7 +18,8 @@ public class Bananenstaude : MonoBehaviour
 		// Setting up the reference.
 		anim = transform.root.GetComponent<Animator>();
 		score = GameObject.Find("Score").GetComponent<Score>();
-
+		points = GameObject.Find ("bananabar").GetComponent<Bananabar> ();
+		jumpscore = GameObject.Find("jumpScore").GetComponent<BananajumpScore>();
 	}
 	
 	
@@ -27,10 +29,10 @@ public class Bananenstaude : MonoBehaviour
 		if(other.tag == "Player")
 		{
 			
-			// Increase the number of bombs the player has.
+			// Increase the score.
 			score.score += 300;
 
-
+			jumpscore.jumpscore += 3;
 
 			points.ModifyPoints(30);
 			

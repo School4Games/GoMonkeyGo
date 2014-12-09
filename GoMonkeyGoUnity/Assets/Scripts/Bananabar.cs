@@ -20,7 +20,7 @@ public class Bananabar : MonoBehaviour {
 
 	
 	void Start () {
-		currentPoints = startingPoints;
+		maxPoints = startingPoints;
 		spacingX = bananaGUI.pixelInset.width;
 		spacingY = -bananaGUI.pixelInset.height;
 	
@@ -41,7 +41,7 @@ public class Bananabar : MonoBehaviour {
 		}
 		
 		maxPoints += n * pointsPerBanana;
-		currentPoints = maxPoints;
+
 		UpdateBananas ();
 		
 	}

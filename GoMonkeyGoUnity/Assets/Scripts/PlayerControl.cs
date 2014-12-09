@@ -27,15 +27,19 @@ public class PlayerControl : MonoBehaviour
 	private bool grounded = false;			// Whether or not the player is grounded.
 	private Animator anim;					// Reference to the player's animator component.
 
-	public Bananabar points;
+	private Bananabar points;
 	private int currentPoints;
 	private int maxPoints;
+
+	private BananajumpScore jumpscore;
 	
 	void Awake()
 	{
 		// Setting up references.
 		groundCheck = transform.Find("groundCheck");
 		anim = GetComponent<Animator>();
+		points = GameObject.Find ("bananabar").GetComponent<Bananabar> ();
+		jumpscore = GameObject.Find("jumpScore").GetComponent<BananajumpScore>();
 	}
 
 
@@ -47,6 +51,7 @@ public class PlayerControl : MonoBehaviour
 		// If the jump button is pressed and the player is grounded then the player should jump.
 		if(Input.GetButtonDown("Jump") && grounded)
 			jump = true;
+
 
 	}
 
@@ -93,6 +98,17 @@ public class PlayerControl : MonoBehaviour
 
 		
 		}
+		if (jumpscore.jumpscore >= 10) {
+						rigidbody2D.AddForce (new Vector2 (0f, superjumpForce));
+			
+						jumpscore.jumpscore = 0;
+
+						points.ModifyPoints (-100);
+				}
+			
+
+
+
 
 	}
 	

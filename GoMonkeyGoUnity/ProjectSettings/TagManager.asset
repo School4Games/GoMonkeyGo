@@ -77,6 +77,22 @@ TagManager:
     userID: 6
     uniqueID: 2148067457
     locked: 0
+  - name: P1
+    userID: 9
+    uniqueID: 414656713
+    locked: 0
+  - name: P2
+    userID: 10
+    uniqueID: 66920169
+    locked: 0
+  - name: P3
+    userID: 11
+    uniqueID: 1830568609
+    locked: 0
+  - name: UI
+    userID: 5
+    uniqueID: 149272721
+    locked: 0
   - name: Character
     userID: 4
     uniqueID: 2511236001
@@ -84,8 +100,4 @@ TagManager:
   - name: Foreground
     userID: 3
     uniqueID: 1024582385
-    locked: 0
-  - name: UI
-    userID: 5
-    uniqueID: 149272721
     locked: 0

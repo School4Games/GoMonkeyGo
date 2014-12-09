@@ -1,11 +1,14 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Spawner\Spawner.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PlayerControl.cs">
     <Files>
-      <File FileName="..\spaceshootertest\Assets\Done\Done_Scripts\Done_GameController.cs" Line="1" Column="1" />
-      <File FileName="..\spaceshootertest\Assets\Done\Done_Scripts\Done_RandomRotator.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Spawner\Spawner.cs" Line="30" Column="113" />
-      <File FileName="Assets\Scripts\Spawner\move.cs" Line="4" Column="18" />
+      <File FileName="Assets\Scripts\BananajumpScore.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Bananabar.cs" Line="19" Column="25" />
+      <File FileName="Assets\Scripts\Camerascroll.cs" Line="26" Column="31" />
+      <File FileName="Assets\Scripts\Score.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Bananenstaude.cs" Line="33" Column="23" />
+      <File FileName="Assets\Scripts\BananaPickup.cs" Line="36" Column="3" />
+      <File FileName="Assets\Scripts\PlayerControl.cs" Line="104" Column="31" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
