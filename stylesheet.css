@@ -1,0 +1,221 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+		 background: url(../images/lang%20hintergrund%20web.png) no-repeat top center;
+	 
+	height: 100%;
+	width: 100%;
+	overflow:auto;
+	}
+	
+
+	
+	  
+	  
+	  
+	  .mainnav {
+	background:url(../images/navi.png) no-repeat top center;
+	position: fixed;
+	top: -60px;
+	padding-top: 60px;
+	left: 18%;
+	display:block;
+	height: 400px;
+	width: 1200px;
+	}
+	
+	
+	  
+	
+	
+  ul#Navigation {
+	 
+    margin: 62px 50px;
+	position: relative;
+  }
+  ul#Navigation li {
+    list-style: none;
+	display:inline;
+    margin: ; padding: 50px;
+  }
+  
+  ul#Navigation li a {
+	  text-decoration: none;
+	  color: #E5D584;
+	  font-family: hobo-std ;
+	  font-size: 35px;
+	  
+	  
+	
+	  
+  }
+  
+  .spacer1 {
+	  height:-200px;
+  }
+  
+  .spacer2 {
+	  height:-100px;
+  }
+  
+  .spacer3 {
+	  height:-100px;
+  }
+  
+  .spacer4 {
+	  height:-100px;
+  }
+  
+  .spacer5 {
+	  height:-100px;
+  }
+  
+  
+  
+  
+  
+
+  .content {
+	  background: url(../images/welcome%20kasten.png)no-repeat ;
+	  position:absolute;
+	  left: 37%;
+	  top:380px;
+	  width: 1000px;
+	  height: 2500px;
+	  margin: 0 auto;
+	  z-index:-999;
+  }
+  
+  .content2 {
+	  background: url(../images/playbutton.png)no-repeat;
+	  position:absolute;
+	  left: 41%;
+	  top:250px;
+	  width: 1000px;
+	  height: 2500px;
+	  margin: 0 auto;
+	  z-index:-999;
+  }
+  
+  .content3 {
+	  background: url(../images/PlatformBlatt2.png)no-repeat;
+	  position:absolute;
+	  left: 0%;
+	  top:480px;
+	  width: 1000px;
+	  height: 2500px;
+	  margin: 0 auto;
+	  z-index:-999;
+  }
+  
+  .content4 {
+	  background: url(../images/PerkyHalsbandGradientrechts.png)no-repeat;
+	  position:absolute;
+	  left: 5%;
+	  top:310px;
+	  width: 1000px;
+	  height: 2500px;
+	  margin: 0 auto;
+	  z-index:-999;
+  }
+  
+   .content5 {
+	  background: url(../images/follow.png)no-repeat;
+	  position:fixed;
+	  left: 90%;
+	  top:360px;
+	  width: 1000px;
+	  height: 2500px;
+	  margin: 0 auto;
+	  z-index:-999;
+  }
+
+
+ .content6 {
+	  background: url(../images/score.png)no-repeat;
+	  position:absolute;
+	  left: 37%;
+	  top:1100px;
+	  width: 1000px;
+	  height: 2500px;
+	  margin: 0 auto;
+	  z-index:-999;
+  }
+  
+   .content7 {
+	  background: url(../images/gold.png)no-repeat;
+	  position:absolute;
+	  left: 5%;
+	  top:1000px;
+	  width: 1000px;
+	  height: 2500px;
+	  margin: 0 auto;
+	  z-index:-999;
+  }
+  
+   .content8 {
+	  background: url(../images/silber.png)no-repeat;
+	  position:absolute;
+	  left: 0%;
+	  top:1300px;
+	  width: 1000px;
+	  height: 2500px;
+	  margin: 0 auto;
+	  z-index:-999;
+  }
+  
+  .content9 {  
+	  background: url(../images/bronce.png)no-repeat;
+	  position:absolute;
+	  left: 11%;
+	  top:1335px;
+	  width: 1000px;
+	  height: 2500px;
+	  margin: 0 auto;
+	  z-index:-999;
+  }
+  
+  
+  .content10 {
+	  background: url(../images/Team.png) no-repeat;
+	  position: absolute;
+	  top: 1900px;
+	  left: 37%;
+	  width: 600px;
+	  height:600px;
+	  margin: 0 auto;
+	  z-index:-999;
+  }
+  
+	  .content11 {
+	  background: #090606;
+	  position: absolute;
+	  top: 2600px;
+	  left: 37%;
+	  width: 500px;
+	  height: 400px;
+	  margin: 0 auto;
+	  z-index:-999;
+	  }
+	  
+	  
+	    .content12 {
+	  background: #090606;
+	  position: absolute;
+	  top: 3200px;
+	  left: 30%;
+	  width: 800px;
+	  height: 500px;
+	  margin: 0 auto;
+	  z-index:-999;
+	  }
+	  
+	  
+	  
+	 
+	  
+	  
+	  
+	  
+ 
