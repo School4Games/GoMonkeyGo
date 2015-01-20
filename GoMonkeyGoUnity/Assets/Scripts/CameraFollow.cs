@@ -14,11 +14,16 @@ public class CameraFollow : MonoBehaviour
 	private Transform Scrolling;		// Reference to the player's transform.
 
 
+
+
 	void Awake ()
 	{
 		// Setting up the reference.
-		Scrolling = GameObject.FindGameObjectWithTag("CameraScroll").transform;
+		Scrolling = GameObject.FindGameObjectWithTag("Player").transform;
+
 	}
+
+
 
 
 	bool CheckXMargin()
@@ -38,8 +43,11 @@ public class CameraFollow : MonoBehaviour
 	void FixedUpdate ()
 	{
 		TrackPlayer();
+
+
+
 	}
-	
+
 	
 	void TrackPlayer ()
 	{

@@ -19,7 +19,7 @@
 	<DebugType>full</DebugType>
 	<Optimize>false</Optimize>
 	<OutputPath>Temp\bin\Debug\</OutputPath>
-	<DefineConstants>DEBUG;TRACE;UNITY_4_5_3;UNITY_4_5;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_1;UNITY_4_6;UNITY_WEBPLAYER;WEBPLUG;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
 	<ErrorReport>prompt</ErrorReport>
 	<WarningLevel>4</WarningLevel>
 	<NoWarn>0169</NoWarn>
@@ -46,6 +46,8 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\CharacterController2D\Demo\Physics-Based\PhysicsPlayerTester.cs" />
+     <Compile Include="Assets\CharacterController2D\Scripts\CC2DTriggerHelper.cs" />
      <Compile Include="Assets\Scripts\BananaPickup.cs" />
      <Compile Include="Assets\Scripts\Bananabar.cs" />
      <Compile Include="Assets\Scripts\BananajumpScore.cs" />
@@ -55,16 +57,20 @@
      <Compile Include="Assets\Scripts\CameraScrollDeath.cs" />
      <Compile Include="Assets\Scripts\Cameradeath.cs" />
      <Compile Include="Assets\Scripts\Camerascroll.cs" />
-     <Compile Include="Assets\Scripts\Countdowntimer.cs" />
+     <Compile Include="Assets\Scripts\Character\CharacterController2D.cs" />
+     <Compile Include="Assets\Scripts\Character\NonPhysicsPlayerTester.cs" />
+     <Compile Include="Assets\Scripts\Character\SmoothFollow.cs" />
+     <Compile Include="Assets\Scripts\Damage.cs" />
      <Compile Include="Assets\Scripts\Destroyer.cs" />
+     <Compile Include="Assets\Scripts\FallingPlatform.cs" />
+     <Compile Include="Assets\Scripts\FollowCamera.cs" />
      <Compile Include="Assets\Scripts\GameOver.cs" />
-     <Compile Include="Assets\Scripts\GamerinoStarterino.cs" />
      <Compile Include="Assets\Scripts\GorillaKill.cs" />
      <Compile Include="Assets\Scripts\GorillaKnockback.cs" />
      <Compile Include="Assets\Scripts\GorillaMove.cs" />
-     <Compile Include="Assets\Scripts\HPPickup.cs" />
      <Compile Include="Assets\Scripts\Health.cs" />
      <Compile Include="Assets\Scripts\HeartPickup.cs" />
+     <Compile Include="Assets\Scripts\MainMenuController.cs" />
      <Compile Include="Assets\Scripts\MeterScore.cs" />
      <Compile Include="Assets\Scripts\MoveGorilla.cs" />
      <Compile Include="Assets\Scripts\PlatformTrigger.cs" />
@@ -73,10 +79,21 @@
      <Compile Include="Assets\Scripts\ScoreShadow.cs" />
      <Compile Include="Assets\Scripts\Scoreperheight.cs" />
      <Compile Include="Assets\Scripts\Snake.cs" />
+     <Compile Include="Assets\Scripts\SortingLayer.cs" />
      <Compile Include="Assets\Scripts\Spawner\DeSpawner.cs" />
      <Compile Include="Assets\Scripts\Spawner\Spawner.cs" />
      <Compile Include="Assets\Scripts\Spawner\move.cs" />
+     <Compile Include="Assets\Scripts\SpriteLayer.cs" />
+     <Compile Include="Assets\Scripts\TextLayer.cs" />
+     <Compile Include="Assets\Scripts\bgscroll.cs" />
+     <Compile Include="Assets\Scripts\dddddd.cs" />
      <Compile Include="Assets\Scripts\test.cs" />
+     <None Include="Assets\Fonts\chubby_cheeks\readme.txt" />
+     <None Include="Assets\Fonts\fire_wood\readme.txt" />
+     <None Include="Assets\Fonts\brady_bunch\bradybunch.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
+ </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

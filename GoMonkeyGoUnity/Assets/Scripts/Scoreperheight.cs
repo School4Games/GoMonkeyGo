@@ -15,7 +15,7 @@ public class Scoreperheight : MonoBehaviour {
 	void OnTriggerEnter2D (Collider2D other)
 	{
 		// If the player enters the trigger zone...
-		if(other.tag == "Scoreperheight")
+		if(other.tag == "Player")
 		{
 			
 
@@ -32,7 +32,7 @@ public class Scoreperheight : MonoBehaviour {
 	void OnTriggerExit2D (Collider2D other)
 	{
 		// If the player enters the trigger zone...
-		if(other.tag == "Scoreperheight")
+		if(other.tag == "Player")
 		{
 			
 			

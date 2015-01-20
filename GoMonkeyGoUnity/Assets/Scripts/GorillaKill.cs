@@ -4,10 +4,24 @@ using System.Collections;
 public class GorillaKill : MonoBehaviour {
 
 
-	void OnTriggerEnter2D (Collider2D other)
+	bool collided;
+	
+	IEnumerator OnTriggerEnter2D(Collider2D other)
 	{
-		
-		if (other.tag == "Player")
-			Destroy(gameObject);
+		if (other.tag == "feet") {
+			collided = true; 
+			if (collided) {
+				rigidbody2D.isKinematic = false;
+				yield return new WaitForSeconds (3); 
+				Destroy(gameObject);
+			}
+		}
 	}
+	
+	
+	void OnCollisionExit () {
+		collided = false;
+	}
+	
+	
 }

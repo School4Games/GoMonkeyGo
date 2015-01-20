@@ -1,0 +1,212 @@
+fileFormatVersion: 2
+guid: 2b4c796a8245cf34996265cf46a10c9e
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: PerkyPartsFinish_0
+    21300002: PerkyPartsFinish_1
+    21300004: PerkyPartsFinish_2
+    21300006: PerkyPartsFinish_3
+    21300008: PerkyPartsFinish_4
+    21300010: PerkyPartsFinish_5
+    21300012: PerkyPartsFinish_6
+    21300014: PerkyPartsFinish_7
+    21300016: PerkyPartsFinish_8
+    21300018: PerkyPartsFinish_9
+    21300020: PerkyPartsFinish_10
+    21300022: PerkyPartsFinish_11
+    21300024: PerkyPartsFinish_12
+    21300026: PerkyPartsFinish_13
+    21300028: PerkyPartsFinish_14
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: PerkyPartsFinish_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 579
+        width: 93
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PerkyPartsFinish_1
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 469
+        width: 206
+        height: 185
+      alignment: 9
+      pivot: {x: .546836913, y: .111746632}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PerkyPartsFinish_2
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 508
+        width: 63
+        height: 108
+      alignment: 9
+      pivot: {x: .261768162, y: .837495029}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PerkyPartsFinish_3
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 364
+        width: 74
+        height: 85
+      alignment: 9
+      pivot: {x: .702819109, y: .790082157}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PerkyPartsFinish_4
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 355
+        width: 150
+        height: 92
+      alignment: 9
+      pivot: {x: .635792255, y: .884536743}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PerkyPartsFinish_5
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 375
+        width: 64
+        height: 96
+      alignment: 9
+      pivot: {x: .315742493, y: .790344536}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PerkyPartsFinish_6
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 363
+        width: 90
+        height: 85
+      alignment: 9
+      pivot: {x: .202210829, y: .235142246}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PerkyPartsFinish_7
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 235
+        width: 61
+        height: 62
+      alignment: 9
+      pivot: {x: .658170462, y: .724783123}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PerkyPartsFinish_8
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 213
+        width: 106
+        height: 129
+      alignment: 9
+      pivot: {x: .560681641, y: .342102051}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PerkyPartsFinish_9
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 262
+        width: 64
+        height: 53
+      alignment: 9
+      pivot: {x: .768011093, y: .702271104}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PerkyPartsFinish_10
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 219
+        width: 73
+        height: 92
+      alignment: 9
+      pivot: {x: .250346988, y: .1853787}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PerkyPartsFinish_11
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 152
+        width: 51
+        height: 55
+      alignment: 9
+      pivot: {x: .689183831, y: .733899772}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PerkyPartsFinish_12
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 152
+        width: 60
+        height: 57
+      alignment: 9
+      pivot: {x: .321326703, y: .68807745}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PerkyPartsFinish_13
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 22
+        width: 73
+        height: 64
+      alignment: 9
+      pivot: {x: .646855593, y: .768010736}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PerkyPartsFinish_14
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 22
+        width: 71
+        height: 61
+      alignment: 9
+      pivot: {x: .530198216, y: .746041954}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
